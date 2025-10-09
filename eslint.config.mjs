@@ -16,6 +16,9 @@ const eslintConfig = [
     "@rocketseat/eslint-config/next"
   ),
   {
+    rules: {
+      "@typescript-eslint/no-namespace": "off",
+    },
     ignores: [
       "node_modules/**",
       ".next/**",
